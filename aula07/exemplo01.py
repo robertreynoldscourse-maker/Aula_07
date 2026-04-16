@@ -17,9 +17,8 @@ print(lst_meses[3:5]) #Fatia3, Imprime a partir de 3 até (5-1)
 print(lst_meses[3:6]) #Fatia4, Imprime a partir de 3 até (6-1)
 
 
-
-
-
-
 #print(lst_vazia_meses)
 print(lst_meses)
+
+for i in lst_meses:
+    print(i)
