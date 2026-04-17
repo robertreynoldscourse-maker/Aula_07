@@ -13,15 +13,16 @@
 #     print(f'{lst_produtos[i]}       {clas_produtos[i]}')
 n = int(input('Digite a quantidade de vendas: '))
 print('')
+META = 1000 #Constante
+META_MINIMA = 700 #Constante
 vendas= []
-for i in range(n):
+for i in range(n): #TAREFA, MUDAR PARA O WHILE
     valor = float(input(f'Digite a venda {i}: '))
     vendas.append(valor)
 print('')
 print(f'Vendas registradas: {vendas}\n')
 
-META = 1000
-META_MINIMA = 700
+
 
 for v in vendas:
     if v >= META:
